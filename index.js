@@ -83,8 +83,8 @@ async function sendTelegram(message) {
     });
 }
 
-checkProduct("https://colorbox.co.id/products/printed-tank-pajama-set-with-shorts-blush-25i.js", 1) // M
-checkProduct("https://colorbox.co.id/products/printed-notch-collar-shorts-pajama-set-multicolor-25l.js", 0) // S
+checkProduct("https://colorbox.co.id/products/printed-tank-pajama-set-with-shorts-blush-25i.js", 3);
+checkProduct("https://colorbox.co.id/products/printed-notch-collar-shorts-pajama-set-multicolor-25l.js", 3);
 
-setInterval(() => checkProduct("https://colorbox.co.id/products/printed-tank-pajama-set-with-shorts-blush-25i.js", 1), 60 * 1000);
-setInterval(() => checkProduct("https://colorbox.co.id/products/printed-notch-collar-shorts-pajama-set-multicolor-25l.js", 0), 60 * 1000);
+setInterval(() => checkProduct("https://colorbox.co.id/products/printed-tank-pajama-set-with-shorts-blush-25i.js", 1), 60 * 1000); // M
+setInterval(() => checkProduct("https://colorbox.co.id/products/printed-notch-collar-shorts-pajama-set-multicolor-25l.js", 0), 60 * 1000); // S
